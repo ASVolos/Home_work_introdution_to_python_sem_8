@@ -1,0 +1,2 @@
+# Home_work_introdution_to_python_sem_8
+Seminar 8
