@@ -3,7 +3,6 @@ import sqlite3 as sq
 from easygui import*
 
 #Создание файла  *.db:
-
 # con = sq.connect("phonebook.db")
 # cur = con.cursor()
  
@@ -47,7 +46,7 @@ def interface():
                 ) 
     
         var = input("Выберите вариант действия: ")
-        while var not in ('1', '2', '3', '4', '5'):
+        while var not in ('1', '2', '3', '4'):
             print("Некорректный код варианта взаимодействия")
             var = input("Выберите вариант действия: ")
         print()
